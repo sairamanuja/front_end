@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../../context/AuthContext';
+import logo from '../../../assets/HomePage/logo-prescripto.png';
+import defaultProfile from '../../../assets/profile/default-profile.png';
 
 export const Navbar = () => {
   const navigate = useNavigate();
@@ -22,7 +24,7 @@ export const Navbar = () => {
       <div className="flex items-center justify-between w-full md:w-auto">
         <img
           className="h-10 cursor-pointer"
-          src="/src/Assets/HomePage/logo-prescripto.png"
+          src={logo}
           alt="Logo"
           onClick={() => navigate('/')}
         />
@@ -87,7 +89,7 @@ export const Navbar = () => {
               >
                 <img
                   className="w-8 h-8 rounded-full"
-                  src="/path-to-profile-icon.png"
+                  src={defaultProfile}
                   alt="Profile"
                 />
               </button>
