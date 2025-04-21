@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { AdminNav } from '../../Components/UI/Navigation/AdminNavbar';
+import { AdminNav } from '../../components/UI/Navigation/AdminNavbar';
 import { TextBox } from '../../components/UI/TextBox';
 import { Link, useNavigate } from 'react-router-dom';
 import { API_ADMIN } from '../../Config/AdminApi';
-import { useAdmin } from '../../context/AdminContext';// Import the admin context
+import { useAdmin } from '../../context/AdminContext';
 
 export const AdminLogin = () => {
   const [email, setEmail] = useState('');
