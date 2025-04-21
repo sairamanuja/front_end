@@ -1,4 +1,6 @@
-export const TextBox = ({ label, type, value, placeholder, onChange, ariaLabel }) => (
+import React from 'react';
+
+export const TextBox = ({ label, type, value, placeholder, onChange, ariaLabel, disabled }) => (
    
    
    
@@ -11,7 +13,10 @@ export const TextBox = ({ label, type, value, placeholder, onChange, ariaLabel }
         placeholder={placeholder}
         onChange={onChange}
         aria-label={ariaLabel}
+        disabled={disabled}
         className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
       />
     </div>
   );
+
+export default TextBox;
