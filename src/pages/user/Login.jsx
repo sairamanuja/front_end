@@ -87,8 +87,14 @@ export const Login = () => {
 
             <p className="text-gray-500 text-center mt-4">
               Don't have an account?{' '}
-              <Link to="/user/signup" className="text-blue-500 hover:underline">
+              <Link to="/signup" className="text-blue-500 hover:underline">
                 Sign up
+              </Link>
+            </p>
+            <p className="text-gray-500 text-center mt-4">
+              signin as admin?{' '}
+              <Link to="/admin/signup" className="text-blue-500 hover:underline">
+                Sign in
               </Link>
             </p>
           </form>

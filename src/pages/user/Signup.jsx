@@ -109,6 +109,12 @@ export const Signup = () => {
               Login here
             </Link>
           </p>
+          <p className="mt-4 text-gray-500 text-center">
+            signup as admin{' '}
+            <Link to="/admin/signup" className="text-blue-500 hover:underline">
+              Login here
+            </Link>
+          </p>
         </div>
       </div>
          </MainLayout>
