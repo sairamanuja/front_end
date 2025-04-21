@@ -4,7 +4,7 @@ import { MainLayout } from '../../Components/Layouts/MainLayout';
 import { API } from '../../Config/Api';
 import { DayCard } from '../../Components/UI/Days'; // Import DayCard
 import { TimeSlot } from '../../Components/UI/Days'; // Import TimeSlot
-import { Button } from '../../Components/ui/Button';
+import { Button } from '../../Components/UI/Button';
 
 export const Add_Appointment = () => {
   const [doctor, setDoctor] = useState(null);
