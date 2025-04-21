@@ -12,7 +12,7 @@ import { Profile } from './pages/user/Profile';
 import { Add_Appointment } from './pages/user/Add_Appointment';
 import { AllDoctors } from './pages/admin/AllDoctors';
 import { AdminLogin } from './pages/admin/Signin';
-import { AdminSignup } from './pages/admin/signup';
+import { AdminSignup } from './pages/admin/Signup';
 import { Add_Doctor } from './pages/admin/Add_Doctor';
 import { AllDoctorAppointments } from './pages/admin/Dashboard';
 import { View_doctor } from './pages/admin/View_Doctor';
