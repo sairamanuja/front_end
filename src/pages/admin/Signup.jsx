@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AdminNav } from '../../components/UI/Navigation/AdminNavbar';
+import { AdminNav } from '../../Components/UI/Navigation/AdminNavbar';
 import { TextBox } from '../../Components/UI/TextBox';
 import { API_ADMIN } from '../../Config/AdminApi';
 import { Navigate } from 'react-router-dom';

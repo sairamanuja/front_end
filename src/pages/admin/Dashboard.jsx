@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { AdminLayout } from "../../components/Layouts/AdminLayout"; // Import AdminLayout
+import { AdminLayout } from "../../Components/Layouts/AdminLayout"; // Import AdminLayout
 import { API_ADMIN } from "../../Config/AdminApi";
 import { Navigate, useNavigate } from "react-router-dom";
 export const AllDoctorAppointments = () => {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { API_ADMIN } from '../../Config/AdminApi';
-import { AdminLayout } from '../../components/Layouts/AdminLayout';
+import { AdminLayout } from '../../Components/Layouts/AdminLayout';
 import Neurologist from "../../assets/HomePage/Neurologist.png";
 
 export const AllDoctors = () => {

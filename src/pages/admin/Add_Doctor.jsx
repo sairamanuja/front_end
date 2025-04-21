@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { TextBox } from '../../Components/UI/TextBox';
 import { useNavigate } from 'react-router-dom';
 import { API_ADMIN } from '../../Config/AdminApi';
-import { AdminLayout } from '../../components/Layouts/AdminLayout';
+import { AdminLayout } from '../../Components/Layouts/AdminLayout';
 
 export const Add_Doctor = () => {
 
