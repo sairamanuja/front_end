@@ -20,7 +20,7 @@ export const Signup = () => {
     setError('');
 
     try {
-      const response = await axios.post('http://localhost:3000/user/signup', {
+      const response = await axios.post('https://hospital-managemt.onrender.com/user/signup', {
         name,
         email,
         password,
