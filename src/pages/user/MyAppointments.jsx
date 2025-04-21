@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import { API } from '../../Config/Api';
 import { MainLayout } from '../../Components/Layouts/MainLayout'; // Import MainLayout
 
