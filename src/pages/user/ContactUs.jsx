@@ -1,6 +1,5 @@
 import React from 'react';
 import { MainLayout } from '../../Components/Layouts/MainLayout';
-import contact_image from '../../assets/ContactUSPage/contact_image (1).png';
 
 export const ContactUs = () => {
   return (
@@ -16,7 +15,7 @@ export const ContactUs = () => {
           {/* Image */}
           <div className="w-full md:w-[50%] flex justify-center items-center">
             <img
-              src={contact_image}
+              src="/assets/ContactUSPage/contact_image (1).png"
               alt="Contact Us"
               className="w-full h-auto max-w-[300px] md:max-w-none md:w-[70%]"
             />

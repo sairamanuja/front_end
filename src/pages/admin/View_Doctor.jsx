@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { API_ADMIN } from "../../Config/AdminApi";
 import { AdminLayout } from '../../Components/Layouts/AdminLayout';
-import Neurologist from "../../assets/HomePage/Neurologist.png";
 
 export const View_doctor = () => {
   const [doctor, setDoctor] = useState(null);
@@ -74,7 +73,7 @@ export const View_doctor = () => {
             <>
               <div className="flex flex-row">
                 <img
-                  src={Neurologist}
+                  src="/assets/HomePage/Neurologist.png"
                   alt="Doctor"
                   className="w-20 h-20 rounded-full"
                 />

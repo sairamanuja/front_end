@@ -37,7 +37,7 @@ export const DoctorList = () => {
                     <DoctorCard
                         key={doctor._id}
                         doctorId={doctor._id}
-                        image={doctor.image || '/src/Assets/HomePage/General_physician.png'}
+                        image={doctor.image || '/assets/HomePage/General_physician.png'}
                         name={doctor.name || 'Doctor Name'}
                         speciality={doctor.speciality || 'Speciality'}
                     />

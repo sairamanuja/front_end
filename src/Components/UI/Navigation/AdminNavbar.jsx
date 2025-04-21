@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from "../../../assets/HomePage/logo-prescripto.png";
 import { useAdmin } from '../../../context/AdminContext';
 import { Link } from 'react-router-dom';
 
@@ -7,9 +6,9 @@ export const AdminNav = () => {
   const { isAdmin, logout } = useAdmin(); 
 
   return (
-        <div className="flex flex-row justify-between items-center p-4 border-b-2 border-gray-300 bg-white">
+    <div className="flex flex-row justify-between items-center p-4 border-b-2 border-gray-300 bg-white">
       <div className="flex flex-row items-center">
-        <img src={logo} alt="Logo" className="w-24 md:w-32" />
+        <img src="/assets/HomePage/logo-prescripto.png" alt="Logo" className="w-24 md:w-32" />
         <span className="text-sm font-semibold text-end translate-y-3 -translate-x-2 hidden md:block">
           Admin
         </span>

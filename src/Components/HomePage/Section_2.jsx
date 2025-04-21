@@ -43,7 +43,7 @@ export const Section_2 = () => {
                 {/* Image Section */}
                 <div className="w-full md:w-[41%]  flex justify-center items-center p-4 ">
                     <img
-                        src="/src/Assets/HomePage/appointment-doc-img.png"
+                        src="/assets/HomePage/appointment-doc-img.png"
                         alt="Doctor"
                         className="w-[200px] md:w-[259px] h-auto"
                     />

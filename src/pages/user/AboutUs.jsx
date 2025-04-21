@@ -1,6 +1,5 @@
 import React from 'react';
 import { MainLayout } from '../../Components/Layouts/MainLayout';
-import about_image from '../../assets/Aboutus/about_image.png';
 
 export const AboutUs = () => {
   return (
@@ -13,7 +12,7 @@ export const AboutUs = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 pt-10 w-full max-w-6xl">
           <div className="w-full md:w-[35%] flex justify-center items-center">
             <img
-              src={about_image}
+              src="/assets/Aboutus/about_image.png"
               alt="About Us"
               className="w-full h-auto max-w-[300px] md:max-w-none"
             />

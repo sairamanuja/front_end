@@ -140,7 +140,7 @@ export const Add_Appointment = () => {
         <div className="flex flex-col md:flex-row h-auto md:h-[40%] gap-4 p-4">
           <div className="border-2 border-gray-300 rounded-md p-4 flex justify-center items-center w-full md:w-[20%]">
             <img
-              src="/src/Assets/HomePage/Dermatologist.png"
+              src="/assets/HomePage/Dermatologist.png"
               alt="Doctor"
               className="w-full h-auto md:w-auto md:h-full"
             />

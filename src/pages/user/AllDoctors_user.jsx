@@ -82,7 +82,7 @@ export const AllDoctors_user = () => {
                 <DoctorCard
                   key={doctor._id} // Unique key for each doctor
                   doctorId={doctor._id}
-                  image={doctor.image || 'https://via.placeholder.com/150'} // Default placeholder image
+                  image={doctor.image || '/assets/HomePage/General_physician.png'} // Default placeholder image
                   name={doctor.name || 'Doctor Name'}
                   speciality={doctor.speciality || 'Speciality'}
                 />

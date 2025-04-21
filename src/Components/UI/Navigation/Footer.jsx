@@ -4,7 +4,7 @@ export const Footer = () => {
             <div className="mx-auto flex flex-col md:flex-row justify-between items-start w-full max-w-7xl">
                 {/* Logo and Description */}
                 <div className="w-full md:w-[30%] mb-8 md:mb-0">
-                    <img className='w-[40%] max-w-[150px]' src="/src/Assets/HomePage/logo-prescripto.png" alt="Prescripto Logo" />
+                    <img className='w-[40%] max-w-[150px]' src="/assets/HomePage/logo-prescripto.png" alt="Prescripto Logo" />
                     <p className="text-gray-600 pt-4">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
                     </p>

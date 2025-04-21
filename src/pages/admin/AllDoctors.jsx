@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { API_ADMIN } from '../../Config/AdminApi';
 import { AdminLayout } from '../../Components/Layouts/AdminLayout';
-import Neurologist from "../../assets/HomePage/Neurologist.png";
 
 export const AllDoctors = () => {
     const [doctors, setDoctors] = useState([]);
@@ -44,7 +43,7 @@ export const AllDoctors = () => {
                     {Array.isArray(doctors) && doctors.length > 0 ? (
                         doctors.map((doctor) => (
                             <div key={doctor._id} className="bg-white rounded-lg shadow-md overflow-hidden w-full sm:w-[48%] md:w-[31%] lg:w-[23%]">
-                                <img src={Neurologist} alt="Doctor" className="w-full h-48 object-cover"/>
+                                <img src="/assets/HomePage/Neurologist.png" alt="Doctor" className="w-full h-48 object-cover"/>
                                 <div className="p-4">
                                     <h3 className="text-xl font-semibold mb-2">{doctor.name}</h3>
                                     <p className="text-gray-600 mb-1">{doctor.speciality}</p>
