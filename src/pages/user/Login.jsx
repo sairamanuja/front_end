@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
 import { MainLayout } from '../../Components/Layouts/MainLayout';
-import { TextBox } from '../../components/UI/TextBox';
+import { TextBox } from '../../Components/UI/TextBox';
 import { useAuth } from '../../context/AuthContext';
 
 export const Login = () => {
