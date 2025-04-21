@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { TextBox } from '../../components/UI/TextBox';
+import { TextBox } from '../../Components/UI/TextBox';
 import { useNavigate } from 'react-router-dom';
 import { API_ADMIN } from '../../Config/AdminApi';
 import { AdminLayout } from '../../components/Layouts/AdminLayout';

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { AdminNav } from '../../components/UI/Navigation/AdminNavbar';
-import { TextBox } from '../../components/UI/TextBox';
+import { TextBox } from '../../Components/UI/TextBox';
 import { Link, useNavigate } from 'react-router-dom';
 import { API_ADMIN } from '../../Config/AdminApi';
 import { useAdmin } from '../../context/AdminContext';
